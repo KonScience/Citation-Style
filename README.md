@@ -1,7 +1,12 @@
 Citation Style for Science Podcasts
 ===
 
-Journal- &amp; DOI-based citation style for inserting hyper-linked bibliography entries into WordPress-based podcast show notes.
+Journal- &amp; DOI-based citation style for inserting hyper-linked bibliography entries into WordPress-based podcast show notes. It shall enhance both:
+- the discoverability of the podcast episode by people who search the Internet for a study's author, title or DOI, and
+- the ability of show note readers to quickly assess the relevance of the study to their interests
+
+Example:
+> John P. A. Ioannidis (2005) <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1182327/" target="_blank">Why Most Published Research Findings Are False</a> (PLoS Medicine) DOI: <a href="http://dx.doi.org/10.1371/journal.pmed.0020124" target="_blank">10.1371/journal.pmed.0020124</a>
 
 How to Use
 ===
@@ -15,5 +20,5 @@ How to Use
 Known Issues
 ===
 
-- Zotero reports "... is not a valid CSL 1.0.1 style file..." upon import. Probably due to the extensive reduction of code.
-- Currently, only journal articles with both DOI and URL are supported. Please make sure your reference manager imports both. 
+- Zotero warns about "... is not a valid CSL 1.0.1 style file..." upon import.
+- Not all bibliography item types are supported yet. Look for arguments behind the occurances of `type="` [in the code](podcast-citation-style.csl) to find out which types are supported currently.
