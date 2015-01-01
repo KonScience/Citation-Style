@@ -28,7 +28,7 @@
    <choose>
     <if type="article-journal">
      <names variable="author">
-      <name form="short" sort-separator=" " delimiter=", " delimiter-precedes-last="contextual"/>
+      <name sort-separator=" " delimiter=", " delimiter-precedes-last="contextual"/>
       <label form="short" prefix=", "/>
      </names>
      <date variable="issued" prefix=" (" suffix=") ">
@@ -36,11 +36,11 @@
      </date>
      <text variable="URL" prefix="&lt;a href=&quot;" suffix="&quot; target=&quot;_blank&quot;&gt;"/>
      <text variable="title" suffix="&lt;/a&gt;" />
-     <text variable="container-title" form="short" prefix=" (" suffix=") "/>
+     <text variable="container-title" form="long" prefix=" (" suffix=") "/>
      <text variable="DOI" prefix="DOI: &lt;a href=&quot;http://dx.doi.org/" suffix="&quot; target=&quot;_blank&quot;&gt;"/>
      <text variable="DOI" suffix="&lt;/a&gt;"/>
     </if>
-    <else-if match="any" type="webpage motion_picture article-newspaper post-weblog post">
+    <else-if match="any" type="webpage motion_picture article-newspaper post-weblog post article-magazine">
      <names variable="author">
       <name sort-separator=" " delimiter=", " delimiter-precedes-last="contextual"/>
       <label form="short" prefix=", "/>
