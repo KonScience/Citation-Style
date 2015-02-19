@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style class="in-text" version="1.0" page-range-format="expanded" demote-non-dropping-particle="sort-only" default-locale="de-DE" xmlns="http://purl.org/net/xbiblio/csl">
  <info>
-  <title>Podcast</title>
-  <title-short>Podcast</title-short>
-  <id>https://github.com/KonScience/Citation-Style</id>
+  <title>PLoS with hyperlinks as raw Hypertext Markup tags</title>
+  <title-short>PLoS hyperlink-markup</title-short>
+  <id>plosw-raw-hyperlink</id>
   <link href="https://github.com/KonScience/Citation-Style" rel="self"/>
   <author>
    <name>Katrin Leinweber</name>
@@ -40,7 +40,7 @@
      <text variable="DOI" prefix="DOI: &lt;a href=&quot;http://dx.doi.org/" suffix="&quot; target=&quot;_blank&quot;&gt;"/>
      <text variable="DOI" suffix="&lt;/a&gt;"/>
     </if>
-    <else-if match="any" type="webpage motion_picture article-newspaper post-weblog post article-magazine">
+    <else-if match="any" type="webpage motion_picture article-newspaper post-weblog post">
      <names variable="author">
       <name sort-separator=" " delimiter=", " delimiter-precedes-last="contextual"/>
       <label form="short" prefix=", "/>
