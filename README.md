@@ -6,7 +6,7 @@ Journal- &amp; DOI-based citation style for inserting hyper-linked bibliography 
 - the ability of show note readers to quickly assess the relevance of the study to their interests
 
 Example:
-> John P. A. Ioannidis (2005) <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1182327/" target="_blank">Why Most Published Research Findings Are False</a> (PLoS Medicine) DOI: <a href="http://dx.doi.org/10.1371/journal.pmed.0020124" target="_blank">10.1371/journal.pmed.0020124</a>
+> John P. A. Ioannidis (2005) <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1182327/" target="_blank">Why Most Published Research Findings Are False</a> (PLoS Medicine) DOI: <a href="https://doi.org/10.1371/journal.pmed.0020124" target="_blank">10.1371/journal.pmed.0020124</a>
 
 How to Use
 ===
